@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import Link from "next/link";
 
 /* eslint-disable @next/next/no-img-element */
 export default function FooterHomeOne() {
@@ -15,13 +15,11 @@ export default function FooterHomeOne() {
                   className="light-version-logo"
                 />
               </div>
-              <p>
-                
-              </p>
+              <p></p>
               <div className="fugu-social-icon">
                 <ul>
                   <li>
-                    <Link href={'#'}>
+                    <Link href={"#"}>
                       <svg
                         width="13"
                         height="11"
@@ -37,7 +35,7 @@ export default function FooterHomeOne() {
                     </Link>
                   </li>
                   <li>
-                    <Link href={'#'}>
+                    <Link href={"#"}>
                       <svg
                         width="8"
                         height="14"
@@ -53,7 +51,7 @@ export default function FooterHomeOne() {
                     </Link>
                   </li>
                   <li>
-                    <Link href={'#'}>
+                    <Link href={"#"}>
                       <svg
                         width="16"
                         height="16"
@@ -156,8 +154,8 @@ export default function FooterHomeOne() {
                   <Link href="tel:+966126835442">+966 12 683 5442</Link>
                 </li>
                 <li>
-                  <Link href="mailto:customercare@Prepdby.com">
-                    customercare@Prepdby.com
+                  <Link href="mailto:customercare@prepdby.com">
+                    customercare@prepdby.com
                   </Link>
                 </li>
               </ul>

@@ -33,7 +33,7 @@ export default function ContactFormSection() {
                       <span>
                         <img src="/images/svg2/mail2.svg" alt="" />
                       </span>
-                      customercare@Prepdby.com
+                      customercare@prepdby.com
                     </Link>
                   </li>
                   {/* <li>

@@ -1,15 +1,15 @@
-import Link from 'next/link';
-import { useState } from 'react';
+import Link from "next/link";
+import { useState } from "react";
 import {
   BlogDropdownMenus,
   ContactDropdownMenus,
   DemoDropdownMenus,
   ElementsMegaMenu,
   PagesDropdownMenus,
-} from '../navbar/menu-data';
-import NavItem from '../navbar/nav-item';
-import Navbar from '../navbar/navbar';
-import useScroll from './../../../hooks/useScroll';
+} from "../navbar/menu-data";
+import NavItem from "../navbar/nav-item";
+import Navbar from "../navbar/navbar";
+import useScroll from "./../../../hooks/useScroll";
 
 /* eslint-disable @next/next/no-img-element */
 export default function HeaderHomeOne() {
@@ -24,14 +24,14 @@ export default function HeaderHomeOne() {
   return (
     <header
       className={`site-header site-header--menu-right fugu-header-section ${
-        scroll ? 'sticky-menu' : ''
+        scroll ? "sticky-menu" : ""
       }`}
       id="sticky-menu"
     >
       <div className="container-fluid">
         <nav className="navbar site-navbar">
           <div className="brand-logo">
-            <Link href={'/'}>
+            <Link href={"/"}>
               <img
                 src="/images/logo/prep-d-logo-green-transparent.svg"
                 alt="logo"
@@ -41,11 +41,11 @@ export default function HeaderHomeOne() {
           </div>
           <div className="menu-block-wrapper">
             <div
-              className={`menu-overlay ${isMobileMenuOpen ? 'active' : ''}`}
+              className={`menu-overlay ${isMobileMenuOpen ? "active" : ""}`}
               onClick={handleCloseMobileMenu}
             ></div>
             <nav
-              className={`menu-block ${isMobileMenuOpen ? 'active' : null}`}
+              className={`menu-block ${isMobileMenuOpen ? "active" : null}`}
               id="append-menu-header"
             >
               <div className="mobile-menu-head">
@@ -81,7 +81,7 @@ export default function HeaderHomeOne() {
                   navItemText="Contact Us"
                   //   menuItems={ContactDropdownMenus}
                 /> */}
-                <Link href="contact-light" class="nav-link-item drop-trigger">
+                <Link href="contact-us" class="nav-link-item drop-trigger">
                   Contact Us
                 </Link>
               </Navbar>
