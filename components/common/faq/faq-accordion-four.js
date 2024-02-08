@@ -7,7 +7,7 @@ export default function FaqAccordionFour() {
       <div className="container">
         <div className="fugu--section-title">
           <div className="fugu--default-content content-sm content-black">
-            <h2>If you need to know anything about NFTs, just ask us!</h2>
+            <h2>If you need to know anything about prep'd, just ask us!</h2>
           </div>
         </div>
         <div className="fugu--accordion-one accordion-five">
